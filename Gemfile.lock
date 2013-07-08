@@ -28,6 +28,8 @@ GEM
     addressable (2.3.5)
     arel (4.0.0)
     atomic (1.1.10)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.1.4)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -126,6 +128,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.3.2.0)
   coffee-rails (~> 4.0.0)
   heroku
   jbuilder (~> 1.2)
