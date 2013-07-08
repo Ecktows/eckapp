@@ -27,6 +27,12 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'heroku'
 
+
+
+group :development do
+  gem 'sqlite3', '1.3.7'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
